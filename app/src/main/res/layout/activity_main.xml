@@ -1,0 +1,156 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#E1D8C4">
+
+    <!-- Campo de Nome -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu nome:"
+        android:backgroundTint="#000000"
+        android:textColor="#000000"
+        android:textColorHint="#000000"/>
+
+    <!-- Campo de E-mail -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        android:text="E-mail" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite seu e-mail:"
+        android:backgroundTint="#000000"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress" />
+
+    <!-- Campo de Idade -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        android:text="Idade" />
+
+    <EditText
+        android:id="@+id/editTextIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua idade:"
+        android:backgroundTint="#000000"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="number" />
+
+    <!-- Campo de Disciplina -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        android:text="Disciplina" />
+
+    <EditText
+        android:id="@+id/editTextDisciplina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:hint="Digite a disciplina:" />
+
+    <!-- Campo da Nota 1 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        android:text="Nota 1° Bimestre" />
+
+    <EditText
+        android:id="@+id/editTextNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota do 1° Bimestre:"
+        android:backgroundTint="#000000"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="numberDecimal" />
+
+    <!-- Campo da Nota 2 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#000000"
+        android:text="Nota 2° Bimestre" />
+
+    <EditText
+        android:id="@+id/editTextNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite a nota do 2° Bimestre:"
+        android:backgroundTint="#000000"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:inputType="numberDecimal" />
+
+    <!-- Botão de Envio -->
+    <Button
+        android:id="@+id/buttonEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Enviar" />
+
+    <!-- Botão de Limpar -->
+    <Button
+        android:id="@+id/buttonLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:baselineAligned="false"
+        android:text="Limpar" />
+
+    <!-- Exibição de erros -->
+    <TextView
+        android:id="@+id/textViewErro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000" />
+
+    <!-- Exibição de dados -->
+    <TextView
+        android:id="@+id/textViewDados"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <!-- Exibição de status -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+</LinearLayout>
